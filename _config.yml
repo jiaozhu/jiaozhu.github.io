@@ -10,8 +10,6 @@ url: https://jiaozhu.net
 menu:
   - title: "Categories"
     url: "/categories.html"
-  - title: "About"
-    url: "/about"
   - title: "Github"
     url: "https://github.com/jiaozhu"
   - title: "RSS"

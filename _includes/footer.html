@@ -7,12 +7,12 @@
       alt="github"
     />
     <a
-      href="https://github.com/tw93/tw93.github.io"
+      href="https://github.com/jiaozhu/jiaozhu.github.io"
       rel="nofollow"
       target="_blank"
       class="need_dotted"
     >
-      tw93/tw93.github.io
+      jiaozhu/jiaozhu.github.io
     </a>
   </footer>
 </div>
@@ -80,18 +80,19 @@
 
     // 全屏按钮
     const fullscreenBtn = document.getElementById("fullscreenBtn");
-    fullscreenBtn && fullscreenBtn.addEventListener("click", function () {
-      var elem = document.getElementById("postIframe");
+    fullscreenBtn &&
+      fullscreenBtn.addEventListener("click", function () {
+        var elem = document.getElementById("postIframe");
 
-      if (!document.fullscreenElement) {
-        if (elem.requestFullscreen) {
-          elem.requestFullscreen();
+        if (!document.fullscreenElement) {
+          if (elem.requestFullscreen) {
+            elem.requestFullscreen();
+          }
+        } else {
+          if (document.exitFullscreen) {
+            document.exitFullscreen();
+          }
         }
-      } else {
-        if (document.exitFullscreen) {
-          document.exitFullscreen();
-        }
-      }
-    });
+      });
   });
 </script>
