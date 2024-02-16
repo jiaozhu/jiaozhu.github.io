@@ -1,41 +1,39 @@
-title:            Tw93
-description:      "Hi，我是 Tw93，是一个前端工程师，会一点 Swift / Rust / Python，喜欢折腾各种新技术。"
+title: 教主
+description: "Hi，我是教主，是一个运维工程师，会一点 Java / Golang / React.js，喜欢折腾各种新技术。"
 
-github: tw93
-zhihu: tw93
-twitter: HiTw93
-v2ex: tw93
+github: jiaozhu
+zhihu: errstack
+twitter: jiaozhu
+v2ex: jiaozhu
 
 url: https://tw93.fun
 menu:
-  - title: 'Categories'
-    url: '/categories.html'
-  - title: 'About'
-    url: '/about'
-  - title: 'Weekly'
-    url: 'https://weekly.tw93.fun/'
-  - title: 'Github'
-    url: 'https://github.com/tw93'
-  - title: 'RSS'
-    url: '/feed.xml'
+  - title: "Categories"
+    url: "/categories.html"
+  - title: "About"
+    url: "/about"
+  - title: "Github"
+    url: "https://github.com/jiaozhu"
+  - title: "RSS"
+    url: "/feed.xml"
 
-timezone:    Africa/El_Aaiun
-locale:      zh_CN
-lang:      zh-cmn-Hans
-future:      true
+timezone: Asia/Shanghai
+locale: zh_CN
+lang: zh-cmn-Hans
+future: true
 highlighter: rouge
-markdown:    kramdown
+markdown: kramdown
 sass:
   sass_dir: _sass
   style: compressed
 
-permalink:   /:year-:month-:day/:title.html
-assetUrl: //tw93.fun/images/
+permalink: /:year-:month-:day/:title.html
+assetUrl: //jiaozhu.org/images/
 defaultImage: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 
-google_analytics: UA-57207999-1
-baidu_verify: kxGpkpWG7G
-google_verify: DbapjTyfmMvvmkuA1GiGcXMqgPQrtgxeUTGY-MrEOYw
+google_analytics:
+baidu_verify:
+google_verify:
 
 paginate: 10
 post_ext: md
@@ -44,14 +42,21 @@ post_layout: post
 page_layout: page
 titlecase: true
 
-showBuyCoffee: true
-payImage: //gw.alipayobjects.com/zos/k/vb/1.png
+showBuyCoffee: false
+payImage:
 
 include: [".htaccess"]
-exclude: ["Gemfile", "Gemfile.lock", "README.md", "LICENSE", "package.json","node_modules"]
+exclude:
+  [
+    "Gemfile",
+    "Gemfile.lock",
+    "README.md",
+    "LICENSE",
+    "package.json",
+    "node_modules",
+  ]
 
 plugins:
-  - jekyll-paginate
   - jekyll-pdf-embed
   - jekyll-paginate
   - jekyll-sitemap
